@@ -1,5 +1,7 @@
 How to run
 ---------------------------------------------------
+PREREQ - Must need Python and pip to run
+
 1. Run "pip install flask", "pip install flask_sqlalchemy", and "pip install flasgger" 
    I have included the dependencies in this repos
 2. If on WINDOWS run: "set FLASK_APP=index.py" and "set FLASK_ENV=development"
