@@ -1,9 +1,11 @@
 How to run
 ---------------------------------------------------
-1. Run "pip install -r requirements.txt" (i have included the dependencies)
+1. Run "pip install flask", "pip install flask_sqlalchemy", and "pip install flasgger" 
+   I have included the dependencies in this repos
 2. If on WINDOWS run: "set FLASK_APP=index.py" and "set FLASK_ENV=development"
    If on *nix run: "export FLASK_APP=index.py" and "export FLASK_ENV=development"
-3. Run: "flask run"
+3. Run: "python -m flask run"
+(may have to "pip install -r requirements.txt" if doesnt run after step 3)
 
 API is now able to take GET and Post Requests
 
